@@ -1,0 +1,57 @@
+.footer {
+  display: flex;
+  align-items: center;
+  margin: -4rem -3.5rem;
+  position: relative;
+}
+.f-content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2rem;
+  gap: 1rem;
+  color: white;
+}
+.f-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .f-content {
+    transform: scale(0.5);
+    gap: 0.5rem;
+    margin-top: 2rem;
+  }
+  .footer {
+    margin-bottom: 1px;
+    position: relative;
+  }
+}
+/* Basically all styles for between 1024 and 480px so tablet */
+@media screen and (max-width: 1024px) and (min-width: 480px) {
+  .App {
+    padding: 0.5rem 0.5rem 0rem;
+  }
+  .n-left {
+    gap: 0.5rem;
+  }
+  .n-list {
+    display: none;
+  }
+  .n-name {
+    width: 9rem;
+  }
+  .n-right {
+    margin-right: 2rem;
+  }
+  .i-name {
+    padding: 1rem;
+  }
+  .awesome > :nth-child(1) {
+    margin-top: 8rem;
+  }
+}
