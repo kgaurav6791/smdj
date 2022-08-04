@@ -103,7 +103,6 @@
   .i-right {
     transform: scale(0.8);
     left: 0rem;
-    top: -2rem;
   }
   .i-right .blur {
     display: none;
@@ -121,12 +120,12 @@
 
   .i-right > :nth-child(2) {
     left: -12%;
-    top: -1.5rem;
+    top: -2rem;
   }
   .i-icons {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 0rem;
+    margin-top: 1rem;
   }
 }
 @media screen and (min-width: 768px) {

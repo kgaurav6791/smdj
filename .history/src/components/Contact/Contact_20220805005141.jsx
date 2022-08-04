@@ -44,7 +44,7 @@ const Contact = () => {
                 <iframe
                   title="SM DJ Mobile Map"
                   width="340"
-                  height="390"
+                  height="360"
                   id="gmap_canvas_mobile_small"
                   src="https://maps.google.com/maps?q=sm%20dj%20night&t=&z=13&ie=UTF8&iwloc=&output=embed"
                   frameBorder="0"
@@ -73,7 +73,7 @@ const Contact = () => {
               <div className="gmap_canvas">
                 <iframe
                   title="SM DJ Default Map"
-                  width="500"
+                  width="600"
                   height="500"
                   id="gmap_canvas"
                   src="https://maps.google.com/maps?q=sm%20dj%20night&t=&z=13&ie=UTF8&iwloc=&output=embed"

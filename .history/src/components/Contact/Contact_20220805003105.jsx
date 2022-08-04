@@ -39,28 +39,13 @@ const Contact = () => {
                 ></iframe>
               </div>
             )}
-            {window.outerWidth <= 524 && window.outerWidth >= 350 && (
+            {window.outerWidth <= 524 && (
               <div className="gmap_canvas_mobile_small">
                 <iframe
                   title="SM DJ Mobile Map"
-                  width="340"
-                  height="390"
+                  width="300"
+                  height="360"
                   id="gmap_canvas_mobile_small"
-                  src="https://maps.google.com/maps?q=sm%20dj%20night&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                  frameBorder="0"
-                  scrolling="no"
-                  marginHeight="0"
-                  marginWidth="0"
-                ></iframe>
-              </div>
-            )}
-            {window.outerWidth < 350 && (
-              <div className="gmap_canvas_smallest">
-                <iframe
-                  title="SM DJ Default Map"
-                  width="305"
-                  height="500"
-                  id="gmap_canvas"
                   src="https://maps.google.com/maps?q=sm%20dj%20night&t=&z=13&ie=UTF8&iwloc=&output=embed"
                   frameBorder="0"
                   scrolling="no"
@@ -73,7 +58,7 @@ const Contact = () => {
               <div className="gmap_canvas">
                 <iframe
                   title="SM DJ Default Map"
-                  width="500"
+                  width="600"
                   height="500"
                   id="gmap_canvas"
                   src="https://maps.google.com/maps?q=sm%20dj%20night&t=&z=13&ie=UTF8&iwloc=&output=embed"

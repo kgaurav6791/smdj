@@ -57,19 +57,13 @@ textarea {
   overflow: hidden;
   background: none !important;
   height: 500px;
-  width: 500px;
+  width: 600px;
 }
 .gmap_canvas_mobile_small {
   overflow: hidden;
   background: none !important;
-  height: 390px;
-  width: 340px;
-}
-.gmap_canvas_mobile_smallest {
-  overflow: hidden;
-  background: none !important;
   height: 360px;
-  width: 305px;
+  width: 300px;
 }
 .gmap_canvas_mobile {
   overflow: hidden;
@@ -89,14 +83,14 @@ textarea {
     gap: 2rem;
     /* height: 40rem; */
     margin-top: -25%;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
   .c-right .user {
     width: 16rem;
   }
   .c-right {
     padding: 1rem;
-    margin-top: -6rem;
+    margin-top: -4rem;
   }
   .contact-form > .c-right > .awesome {
     margin: 0;

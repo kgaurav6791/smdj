@@ -65,14 +65,14 @@
 
 @media screen and (max-width: 480px) {
   .services {
-    margin-top: 2rem;
+    margin-top: 3rem;
     flex-direction: column;
     gap: 5rem;
     height: auto;
     padding: 0;
     margin-bottom: 3rem;
     position: relative;
-    top: 4rem;
+    top: 5rem;
   }
   .services > .awesome {
     margin: 0.5rem;

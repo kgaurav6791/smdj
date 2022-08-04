@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: column;
   position: relative;
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 /* heading */
 .portfolio span:nth-of-type(1) {
@@ -81,17 +81,18 @@
   width: 65%;
   max-height: 720px !important;
 }
+
 #root > div > div.full-video > div > iframe {
   min-width: 55%;
   min-height: 65%;
 }
 @media screen and (max-width: 480px) {
   .portfolio {
-    margin-top: 6rem;
+    margin-top: 5rem;
   }
   .image-gallery-play-button {
     left: 46%;
-    bottom: 35%;
+    bottom: 40%;
   }
   #root
     > div

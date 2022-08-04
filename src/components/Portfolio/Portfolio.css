@@ -88,7 +88,7 @@
 }
 @media screen and (max-width: 480px) {
   .portfolio {
-    margin-top: 6rem;
+    margin-top: 5rem;
   }
   .image-gallery-play-button {
     left: 46%;

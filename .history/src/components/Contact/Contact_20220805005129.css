@@ -57,12 +57,12 @@ textarea {
   overflow: hidden;
   background: none !important;
   height: 500px;
-  width: 500px;
+  width: 600px;
 }
 .gmap_canvas_mobile_small {
   overflow: hidden;
   background: none !important;
-  height: 390px;
+  height: 360px;
   width: 340px;
 }
 .gmap_canvas_mobile_smallest {

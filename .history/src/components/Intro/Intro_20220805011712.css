@@ -103,7 +103,7 @@
   .i-right {
     transform: scale(0.8);
     left: 0rem;
-    top: -2rem;
+    top: -1rem;
   }
   .i-right .blur {
     display: none;

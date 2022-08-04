@@ -73,7 +73,7 @@ const Contact = () => {
               <div className="gmap_canvas">
                 <iframe
                   title="SM DJ Default Map"
-                  width="500"
+                  width="600"
                   height="500"
                   id="gmap_canvas"
                   src="https://maps.google.com/maps?q=sm%20dj%20night&t=&z=13&ie=UTF8&iwloc=&output=embed"

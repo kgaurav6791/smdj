@@ -72,9 +72,6 @@
   .App {
     padding: 0.5rem 0.5rem 0rem;
   }
-  .Intro {
-    margin-top: 2rem;
-  }
   .experience {
     margin-bottom: -3.5rem;
   }
@@ -250,7 +247,7 @@
     margin-top: 1rem;
   }
   .experience {
-    top: 12rem;
+    top: 14rem;
   }
   .photogallery {
     margin-top: 15rem;
