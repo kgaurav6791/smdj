@@ -70,7 +70,7 @@ const Intro = () => {
           </a>
           <a
             className="share"
-            href="https://wa.me/?text=SM%20DJ.%0ABest%20DJ%20and%20sound%20services%20in%20Lucknow%21%0ABOOK%20NOW%21%21%21%21%0A%0A%0Ahttps%3A%2F%2Fsmdjlucknow.in%2F%0A%0A"
+            href="https://wa.me/?text=SM%20DJ.%20Best%20DJ%20and%20Sound%20Services%20in%20Lucknow.%20BOOK%20NOW%21%21%21%20%0https%3A%2F%2Fsmdjlucknow.in%2F%0ABOOK%20NOW%21%21%21%21%0Ahttps%3A%2F%2Fsmdjlucknow.in%0A"
           >
             <img
               src={LinkedIn}
@@ -78,17 +78,12 @@ const Intro = () => {
               alt="whatsapp sharing link"
             />
           </a>
-          <a
-            href="https://twitter.com/share?url=https://smdjlucknow.in&text=SM DJ.
- Best DJ and sound services in Lucknow!
-BOOK NOW!!"
-          >
-            <img
-              src={Instagram}
-              title="Share on Twitter"
-              alt="twitter sharing link"
-            />
-          </a>
+
+          <img
+            src={Instagram}
+            title="Share on Instagram"
+            alt="instagram sharing link"
+          />
         </div>
       </div>
       {/* right image side */}

@@ -80,8 +80,9 @@ const Intro = () => {
           </a>
           <a
             href="https://twitter.com/share?url=https://smdjlucknow.in&text=SM DJ.
- Best DJ and sound services in Lucknow!
-BOOK NOW!!"
+Best DJ and sound services in Lucknow!
+BOOK NOW!!!!
+!"
           >
             <img
               src={Instagram}

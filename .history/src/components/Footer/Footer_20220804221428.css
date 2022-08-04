@@ -238,8 +238,8 @@
   .i-icons {
     gap: 0.3rem;
   }
-  .i-icons > a > img {
-    transform: scale(0.8);
+  .i-icons > img {
+    transform: scale(0.9);
   }
   .cards {
     margin-top: 3rem;

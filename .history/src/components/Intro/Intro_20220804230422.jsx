@@ -78,17 +78,12 @@ const Intro = () => {
               alt="whatsapp sharing link"
             />
           </a>
-          <a
-            href="https://twitter.com/share?url=https://smdjlucknow.in&text=SM DJ.
- Best DJ and sound services in Lucknow!
-BOOK NOW!!"
-          >
-            <img
-              src={Instagram}
-              title="Share on Twitter"
-              alt="twitter sharing link"
-            />
-          </a>
+
+          <img
+            src={Instagram}
+            title="Share on Instagram"
+            alt="instagram sharing link"
+          />
         </div>
       </div>
       {/* right image side */}
