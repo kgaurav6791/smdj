@@ -57,38 +57,10 @@ const Intro = () => {
         {/* social icons */}
 
         <div className="i-icons">
-          <span className="share">Share Us:</span>
-          <a
-            className="share"
-            href="https://www.facebook.com/sharer.php?u=https://smdjlucknow.in/"
-          >
-            <img
-              src={Github}
-              title="Share on Facebook"
-              alt="facebook sharing link"
-            />
-          </a>
-          <a
-            className="share"
-            href="https://wa.me/?text=SM%20DJ.%0ABest%20DJ%20and%20sound%20services%20in%20Lucknow%21%0ABOOK%20NOW%21%21%21%21%0A%0A%0Ahttps%3A%2F%2Fsmdjlucknow.in%2F%0A%0A"
-          >
-            <img
-              src={LinkedIn}
-              title="Share on Whatsapp"
-              alt="whatsapp sharing link"
-            />
-          </a>
-          <a
-            href="https://twitter.com/share?url=https://smdjlucknow.in&text=SM DJ.
- Best DJ and sound services in Lucknow!
-BOOK NOW!!"
-          >
-            <img
-              src={Instagram}
-              title="Share on Twitter"
-              alt="twitter sharing link"
-            />
-          </a>
+          <div className="share">Share Us:</div>
+          <img src={Github} alt="" />
+          <img src={LinkedIn} alt="" />
+          <img src={Instagram} alt="" />
         </div>
       </div>
       {/* right image side */}

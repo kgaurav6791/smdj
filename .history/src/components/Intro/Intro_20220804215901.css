@@ -44,11 +44,8 @@
   align-self: flex-start;
   justify-content: flex-start;
 }
-.share {
-  font-weight: bolder;
-}
 .i-icons > * {
-  transform: scale(0.9);
+  transform: scale(1.1);
 }
 .i-icons > *:hover {
   cursor: pointer;

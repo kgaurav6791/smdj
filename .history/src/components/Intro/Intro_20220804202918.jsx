@@ -8,8 +8,8 @@ import glassesimoji from "../../img/glassesimoji3.webp";
 import thumbup from "../../img/thumbup3.webp";
 import crown from "../../img/crown4.webp";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
-import Github from "../../img/facebook.webp";
-import LinkedIn from "../../img/whatsapp.webp";
+import Github from "../../img/github.webp";
+import LinkedIn from "../../img/linkedin.webp";
 import Instagram from "../../img/instagram.webp";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
@@ -46,7 +46,7 @@ const Intro = () => {
             </p>
           </span>
         </div>
-        <Link to="submitcontactslider" smooth={true} spy={true}>
+        <Link to="contactdetails" smooth={true} spy={true}>
           <button
             className="button i-button"
             style={{ padding: 0, textDecoration: "bold", fontSize: "15px" }}
@@ -55,40 +55,10 @@ const Intro = () => {
           </button>
         </Link>
         {/* social icons */}
-
         <div className="i-icons">
-          <span className="share">Share Us:</span>
-          <a
-            className="share"
-            href="https://www.facebook.com/sharer.php?u=https://smdjlucknow.in/"
-          >
-            <img
-              src={Github}
-              title="Share on Facebook"
-              alt="facebook sharing link"
-            />
-          </a>
-          <a
-            className="share"
-            href="https://wa.me/?text=SM%20DJ.%0ABest%20DJ%20and%20sound%20services%20in%20Lucknow%21%0ABOOK%20NOW%21%21%21%21%0A%0A%0Ahttps%3A%2F%2Fsmdjlucknow.in%2F%0A%0A"
-          >
-            <img
-              src={LinkedIn}
-              title="Share on Whatsapp"
-              alt="whatsapp sharing link"
-            />
-          </a>
-          <a
-            href="https://twitter.com/share?url=https://smdjlucknow.in&text=SM DJ.
- Best DJ and sound services in Lucknow!
-BOOK NOW!!"
-          >
-            <img
-              src={Instagram}
-              title="Share on Twitter"
-              alt="twitter sharing link"
-            />
-          </a>
+          <img src={Github} alt="" />
+          <img src={LinkedIn} alt="" />
+          <img src={Instagram} alt="" />
         </div>
       </div>
       {/* right image side */}
@@ -113,7 +83,7 @@ BOOK NOW!!"
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Book" text2="Now" type="booknow" />
+          <FloatinDiv img={crown} text1="Book" text2="Now" name="booknow" />
         </motion.div>
 
         {/* animation */}
@@ -124,7 +94,12 @@ BOOK NOW!!"
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best DJ " text2="in Lucknow" />
+          <FloatinDiv
+            img={thumbup}
+            text1="Best DJ "
+            text2="in Lucknow"
+            name="bestdj"
+          />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

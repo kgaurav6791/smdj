@@ -104,15 +104,11 @@
     margin-left: 1rem;
   }
   .i-icons {
-    padding-top: 1rem;
+    padding: 1rem;
     display: flex;
     align-items: center;
-    align-self: flex-start;
     justify-content: flex-start;
     transform: scale(0.8);
-  }
-  .share {
-    font-weight: bolder;
   }
   .i-right > :nth-child(1) {
     transform: scale(1.2);
@@ -194,9 +190,6 @@
     top: 6rem;
     left: 3rem;
   }
-  .i-icons {
-    gap: 1rem;
-  }
   .services {
     margin-top: 12rem;
     flex-direction: column;
@@ -234,12 +227,6 @@
     justify-content: space-evenly;
     display: flex;
     gap: 0.3rem;
-  }
-  .i-icons {
-    gap: 0.3rem;
-  }
-  .i-icons > a > img {
-    transform: scale(0.8);
   }
   .cards {
     margin-top: 3rem;

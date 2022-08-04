@@ -8,9 +8,9 @@ const FloatinDiv = ({ img, text1, text2, type }) => {
     <div className="floatingDiv">
       {type === "booknow" && (
         <>
-          {" "}
-          <img src={img} alt="" />
           <Link to="contactdetails" smooth={true} spy={true}>
+            {" "}
+            <img src={img} alt="" />
             <span>
               {text1}
               <br />

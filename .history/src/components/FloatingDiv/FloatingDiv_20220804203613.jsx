@@ -1,25 +1,22 @@
 import React from "react";
-import { Link } from "react-scroll";
+
 import "./FloatingDiv.css";
 
-const FloatinDiv = ({ img, text1, text2, type }) => {
+const FloatinDiv = ({ img, text1, text2, name }) => {
   return (
     // darkMode
     <div className="floatingDiv">
-      {type === "booknow" && (
+      {name === "booknow" && (
         <>
-          {" "}
           <img src={img} alt="" />
-          <Link to="contactdetails" smooth={true} spy={true}>
-            <span>
-              {text1}
-              <br />
-              {text2}
-            </span>
-          </Link>
+          <span>
+            {text1}
+            <br />
+            {text2}
+          </span>
         </>
       )}
-      {type != "booknow" && (
+      {name === "booknow" && (
         <>
           <img src={img} alt="" />
           <span>
