@@ -35,9 +35,7 @@ const Footer = () => {
           </div>
         </span>
         <span></span>
-        <div className="f-icons">
-          SM DJ LUCKNOW.&nbsp; &copy; Copyright 2021
-        </div>
+        <div className="f-icons">&copy; Copyright 2021.SM DJ LUCKNOW</div>
       </div>
     </div>
   );

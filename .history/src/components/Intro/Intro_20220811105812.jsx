@@ -39,11 +39,10 @@ const Intro = () => {
               House, EDM, Hip-bounce, International, Punjabi and Rock!!
             </p>
             <p>
-              Our rates all depend on the types of add-ons you select ,your
-              venue location from Lucknow city center as well as length of time
-              you desire. We make it a requirement to meet with all our clients
-              making sure that you get an exact and accurate quote, not an
-              estimate.
+              Our rates all depend on the types of add-ons you select as well as
+              length of time you desire. We make it a requirement to MEET with
+              all our clients making sure that you get an exact and accurate
+              quote, not an estimate.
             </p>
           </span>
         </div>
@@ -74,6 +73,7 @@ const Intro = () => {
             href="https://wa.me/?text=SM%20DJ.%0ABest%20DJ%20and%20sound%20services%20in%20Lucknow%21%0ABOOK%20NOW%21%21%21%21%0A%0A%0Ahttps%3A%2F%2Fsmdjlucknow.in%2F%0A%0A"
           >
             <img
+              style={{ height: "50px", width: "50px" }}
               src={LinkedIn}
               title="Share on Whatsapp"
               alt="whatsapp sharing link"
@@ -82,7 +82,6 @@ const Intro = () => {
           <a href="https://www.google.com/maps/search/?api=1&query=SM%20DJ%20NIGHT%20%26%20All%20Kind%20Of%20Sound%20Services&query_place_id=ChIJ5_FZ9qb-mzkRzgp8VpsQHPg">
             <img
               src={Instagram}
-              style={{ height: "50px", width: "50px" }}
               title="Share on Google Maps"
               alt="Goole Maps sharing link"
             />

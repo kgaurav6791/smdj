@@ -41,7 +41,7 @@ const Intro = () => {
             <p>
               Our rates all depend on the types of add-ons you select ,your
               venue location from Lucknow city center as well as length of time
-              you desire. We make it a requirement to meet with all our clients
+              you desire. We make it a requirement to MEET with all our clients
               making sure that you get an exact and accurate quote, not an
               estimate.
             </p>
