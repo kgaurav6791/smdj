@@ -149,7 +149,7 @@
     position: inherit;
   }
   .cards {
-    margin-left: 9rem !important;
+    margin-left: 9rem;
   }
   .services {
     flex-direction: column;

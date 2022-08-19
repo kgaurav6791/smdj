@@ -61,6 +61,6 @@
 }
 @media screen and (max-width: 1025px) and (min-width: 768px) {
   .experience {
-    margin-top: 38rem;
+    margin-bottom: -3.5rem;
   }
 }

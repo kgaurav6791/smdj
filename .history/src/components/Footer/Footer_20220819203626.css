@@ -149,7 +149,7 @@
     position: inherit;
   }
   .cards {
-    margin-left: 9rem !important;
+    margin-left: 9rem;
   }
   .services {
     flex-direction: column;
@@ -211,7 +211,7 @@
     margin: 5.5rem;
   }
   .experience {
-    margin-top: 50rem;
+    padding-top: 34rem;
   }
   .contact-form {
     margin-top: -2rem;
