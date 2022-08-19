@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
-//import Services from "./components/Services/Services";
+import Services from "./components/Services/Services";
 import "./App.css";
 //import Experience from "./components/Experience/Experience";
 //import Works from "./components/Works/Works";
@@ -22,7 +22,6 @@ import { themeContext } from "./Context";
 const Experience = React.lazy(() =>
   import("./components/Experience/Experience")
 );
-const Services = React.lazy(() => import("./components/Services/Services"));
 const PhotoGallery = React.lazy(() =>
   import("./components/PhotoGallery/PhotoGallery")
 );
@@ -44,23 +43,8 @@ function App() {
     >
       <Navbar />
       <Intro />
+      <Services />
 
-      <React.Suspense
-        fallback={
-          <div
-            style={{
-              height: "60px",
-              display: "flex",
-
-              justifyContent: "center",
-            }}
-          >
-            <TailSpin color="#FCA61F" height={80} width={80} />
-          </div>
-        }
-      >
-        <Services />
-      </React.Suspense>
       <React.Suspense
         fallback={
           <div

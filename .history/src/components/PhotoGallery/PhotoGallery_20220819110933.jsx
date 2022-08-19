@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useRef } from "react";
 import { themeContext } from "../../Context";
 import "./PhotoGallery.css";
@@ -92,8 +92,8 @@ const PhotoGallery = () => {
       originalWidth: "1260",
       thumbnailHeight: "72",
       thumbnailWidth: "96",
-      originalAlt: "DJ NIGHT IN LUCKNOW",
-      thumbnailAlt: "DJ NIGHT IN LUCKNOW",
+      originalAlt: "BEST DJ IN LUCKNOW",
+      thumbnailAlt: "BEST DJ IN LUCKNOW",
       loading: "lazy",
     },
     {
@@ -292,8 +292,8 @@ const PhotoGallery = () => {
       originalWidth: "378",
       thumbnailHeight: "72",
       thumbnailWidth: "96",
-      originalAlt: "DJ NIGHT IN LUCKNOW",
-      thumbnailAlt: "DJ NIGHT IN LUCKNOW",
+      originalAlt: "BEST DJ IN LUCKNOW",
+      thumbnailAlt: "BEST DJ IN LUCKNOW",
       loading: "lazy",
     },
   ];

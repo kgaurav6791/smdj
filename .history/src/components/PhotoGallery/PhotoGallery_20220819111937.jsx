@@ -292,8 +292,8 @@ const PhotoGallery = () => {
       originalWidth: "378",
       thumbnailHeight: "72",
       thumbnailWidth: "96",
-      originalAlt: "DJ NIGHT IN LUCKNOW",
-      thumbnailAlt: "DJ NIGHT IN LUCKNOW",
+      originalAlt: "BEST DJ IN LUCKNOW",
+      thumbnailAlt: "BEST DJ IN LUCKNOW",
       loading: "lazy",
     },
   ];
