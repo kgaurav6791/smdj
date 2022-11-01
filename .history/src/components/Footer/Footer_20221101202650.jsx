@@ -35,8 +35,8 @@ const Footer = () => {
           </div>
         </span>
         <span></span>
-        <div className="f-icons"><a href="https://smdjlucknow.in/" style={{ fontSize: "20px",
-    fontWeight: "400",
+        <div className="f-icons"><a href="https://smdjlucknow.in/" style={{ fontSize: "1.3rem",
+    fontWeight: "bold",
     color:"white",
     textDecoration: "none" }}>
          SM DJ LUCKNOW&nbsp; &copy; Copyright 2021     </a></div>

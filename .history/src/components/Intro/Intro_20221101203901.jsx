@@ -33,10 +33,10 @@ const Intro = () => {
           <span>& All Kind Of Sound Services</span>
           <span>
             <p>
-              We are <b><h1 style={{ display:"inline" }}>Lucknow's best DJ!</h1></b> With over 800 shows in a 12 yr career! If
+              We are, <bold><h1>Lucknow's best DJ!</h1></bold> With over 800 shows in a 12 yr career!If
               you want an experienced DJ, then book US! We have a library of
-              10,000+ songs & music belonging to genres like <a target="_blank" style={{    color:"var(--gray)",textDecoration:"none"}} href="https://www.britannica.com/topic/Bollywood-film-industry-India">Bollywood</a>, Commercial House, <a target="_blank" style={{    color:"var(--gray)",textDecoration:"none"}} href="https://edm.com/">EDM</a>,
-              Hip-bounce, International, Commercial House, <a target="_blank" style={{    color:"var(--gray)",textDecoration:"none"}} href="https://en.wikipedia.org/wiki/Music_of_Punjab">Punjabi</a> and <a style={{    color:"var(--gray)",textDecoration:"none"}} target="_blank" href="https://en.wikipedia.org/wiki/Rock_music">Rock</a>!!
+              10,000+ songs of genres like Bollywood, Commercial House, EDM,
+              Hip-bounce, International, Punjabi and Rock!!
             </p>
             <p>
               Our rates all depend on the types of add-ons you select ,your
@@ -61,7 +61,6 @@ const Intro = () => {
           <span className="share">Review Us:</span>
           <a
             className="share"
-            target="_blank"
             href="https://www.facebook.com/sharer.php?u=https://smdjlucknow.in/"
           >
             <img
@@ -72,7 +71,6 @@ const Intro = () => {
           </a>
           <a
             className="share"
-            target="_blank"
             href="https://wa.me/?text=SM%20DJ.%0ABest%20DJ%20and%20sound%20services%20in%20Lucknow%21%0ABOOK%20NOW%21%21%21%21%0A%0A%0Ahttps%3A%2F%2Fsmdjlucknow.in%2F%0A%0A"
           >
             <img
@@ -81,7 +79,7 @@ const Intro = () => {
               alt="whatsapp sharing link"
             />
           </a>
-          <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=SM%20DJ%20NIGHT%20%26%20All%20Kind%20Of%20Sound%20Services&query_place_id=ChIJ5_FZ9qb-mzkRzgp8VpsQHPg">
+          <a href="https://www.google.com/maps/search/?api=1&query=SM%20DJ%20NIGHT%20%26%20All%20Kind%20Of%20Sound%20Services&query_place_id=ChIJ5_FZ9qb-mzkRzgp8VpsQHPg">
             <img
               src={Instagram}
               style={{ height: "50px", width: "50px" }}

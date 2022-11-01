@@ -36,7 +36,7 @@ const Intro = () => {
               We are <b><h1 style={{ display:"inline" }}>Lucknow's best DJ!</h1></b> With over 800 shows in a 12 yr career! If
               you want an experienced DJ, then book US! We have a library of
               10,000+ songs & music belonging to genres like <a target="_blank" style={{    color:"var(--gray)",textDecoration:"none"}} href="https://www.britannica.com/topic/Bollywood-film-industry-India">Bollywood</a>, Commercial House, <a target="_blank" style={{    color:"var(--gray)",textDecoration:"none"}} href="https://edm.com/">EDM</a>,
-              Hip-bounce, International, Commercial House, <a target="_blank" style={{    color:"var(--gray)",textDecoration:"none"}} href="https://en.wikipedia.org/wiki/Music_of_Punjab">Punjabi</a> and <a style={{    color:"var(--gray)",textDecoration:"none"}} target="_blank" href="https://en.wikipedia.org/wiki/Rock_music">Rock</a>!!
+              Hip-bounce, International, <a target="_blank" style={{    color:"var(--gray)",textDecoration:"none"}} href="https://www.britannica.com/topic/Bollywood-film-industry-India">Bollywood</a>, Commercial House, <a target="_blank" style={{    color:"var(--gray)",textDecoration:"none"}} href="https://en.wikipedia.org/wiki/Music_of_Punjab">Punjabi</a> and <a style={{    color:"var(--gray)",textDecoration:"none"}} target="_blank" href="https://en.wikipedia.org/wiki/Rock_music">Rock</a>!!
             </p>
             <p>
               Our rates all depend on the types of add-ons you select ,your

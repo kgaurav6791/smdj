@@ -7,13 +7,10 @@ const navbar = () => {
     <div className="n-wrapper" id="Navbar">
       {/* left */}
       <div className="n-left">
+      <a href="https://smdjlucknow.in/">
               
-        <div className="n-name"> <a href="https://smdjlucknow.in/" style={{ fontSize: "1.3rem",
-    fontWeight: "bold",
-    color: "var(--black)",
-    textDecoration: "none" }}>SM DJ Night
-              </a></div>
-     
+        <div className="n-name">SM DJ Night</div>
+              </a>
         <Toggle />
       </div>
       {/* right */}

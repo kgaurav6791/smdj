@@ -125,8 +125,8 @@ const PhotoGallery = () => {
       originalWidth: "1260",
       thumbnailHeight: "72",
       thumbnailWidth: "96",
-      originalAlt: "LUCKNOW DJ",
-      thumbnailAlt: "LUCKNOW DJ",
+      originalAlt: "DJ IN LUCKNOW",
+      thumbnailAlt: "DJ IN LUCKNOW",
       loading: "lazy",
     },
     {
@@ -136,8 +136,8 @@ const PhotoGallery = () => {
       originalWidth: "1260",
       thumbnailHeight: "72",
       thumbnailWidth: "96",
-      originalAlt: "TOP DJ LUCKNOW",
-      thumbnailAlt: "TOP DJ LUCKNOW",
+      originalAlt: "DJ LUCKNOW",
+      thumbnailAlt: "DJ LUCKNOW",
       loading: "lazy",
     },
     {

@@ -39,8 +39,7 @@ const Services = () => {
             <b><h1 style={{ display:"inline" }}> Best DJ in Lucknow</h1></b> bar none.
           </p>
           <p>
-            <a style={{    color:"var(--gray)",textDecoration:"none"}} href="https://www.justdial.com/Lucknow/S-M-Dj-Sound-Service-Behind-Ashiyana-Paradise-Marriage-Lawn-Lda-Colony/0522PX522-X522-170930003626-H8H2_BZDET">
-            We service all of Lucknow </a> including PGI, Raibarelli Road, Banthara,
+            We service all of Lucknow including PGI, Raibarelli Road, Banthara,
             Kanpur Road, Chinhat, Faizabad Road, Thakurganj, Dubagga, Hardoi
             Road, Rajajipuram, Gomti Nagar, LDA colony, Kejri Khera,Para,
             Hajratganj, Charbagh, Aliganj, Sanjay Gandhi Puram, Chowk, and all

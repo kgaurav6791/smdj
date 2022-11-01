@@ -9,30 +9,26 @@ const FloatinDiv = ({ img, text1, text2, type }) => {
       {type === "booknow" && (
         <>
           {" "}
-          <img src={img} alt="LUCKNOW DJ" />
+          <img src={img} alt="DJ LUCKNOW" />
           <Link to="contactdetails" smooth={true} spy={true}>
             <span>
-          <b><h2 style={{ display:"inline",fontSize:"16px" }}>
+          <b><h1 style={{ display:"inline" }}>
               {text1}
               <br />
               {text2}
-            </h2></b>
+            </h1></b>
             </span>
           </Link>
         </>
       )}
       {type != "booknow" && (
         <>
-          <img src={img} alt="TOP DJ LUCKNOW" />
-          <Link to="services" smooth={true} spy={true}>
+          <img src={img} alt="LUCKNOW DJ" />
           <span>
-          <b><h2 style={{ display:"inline",fontSize:"16px" }}>
             {text1}
             <br />
             {text2}
-            </h2></b>
           </span>
-          </Link>
         </>
       )}
     </div>

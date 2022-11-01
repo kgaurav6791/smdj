@@ -8,10 +8,10 @@ const navbar = () => {
       {/* left */}
       <div className="n-left">
               
-        <div className="n-name"> <a href="https://smdjlucknow.in/" style={{ fontSize: "1.3rem",
-    fontWeight: "bold",
-    color: "var(--black)",
-    textDecoration: "none" }}>SM DJ Night
+        <div className="n-name"> <a href="https://smdjlucknow.in/" style={{ fontSize: 1.3rem,
+    fontWeight: bold,
+    color: var(--black),
+    testDecoration: "none" }}>SM DJ Night
               </a></div>
      
         <Toggle />
