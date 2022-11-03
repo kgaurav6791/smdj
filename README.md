@@ -1,4 +1,4 @@
-# A simple SPA , DJ website made on REACTJS. 
+# A simple Single Page Application , DJ website made on REACTJS. 
 
 ## Description
 1. This website is fully responsive and production ready.
