@@ -13,14 +13,14 @@
 https://smdjlucknow.in/<br />
 
 ## Dependencies
-"bootstrap": "^5.1.3",<br />
-"firebase": "^9.4.1",<br />
-"firebase-tools": "^11.1.0",<br />
-"react-bootstrap": "^2.0.2",<br />
-"react-google-button": "^0.7.2",<br />
-"react-router-dom": "^6.0.2",<br />
+
+"framer-motion": "^6.2.8",<br />
+"react-image-gallery": "^1.2.8",<br />
+"react-image-video-lightbox": "^3.0.0",<br />
+"react-loader-spinner": "^5.1.7-beta.1",<br />
+"react-scroll": "^1.8.6",<br />
 
 ## Special Thanks to:-
-https://github.com/ZainRk/ from whose tutorial project this website originally began.
+Zainrk (https://github.com/ZainRk/) from whose tutorial project this website originally began.<br />
 <b>Original Tutorial at-https://www.youtube.com/watch?v=CKAn5dCK6RE</b>
 
