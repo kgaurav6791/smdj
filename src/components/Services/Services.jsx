@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.webp";
 import Humble from "../../img/humble.webp";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import { useState } from "react";
+//import { useState } from "react";
 import Popup from "../Popup/Popup";
 
 const Services = () => {
