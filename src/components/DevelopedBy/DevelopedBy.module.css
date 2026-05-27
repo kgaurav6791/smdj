@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+.kgDevelopedBar {
+  background-color: #2b2b2a;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 15px;
+  margin-top: -4px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kgDevelopedLink {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.kgDevelopedText {
+  display: inline-flex;
+  align-items: center;
+  line-height: 28px;
+  transition: color .4s ease-in-out;
+}
+
+.kgCosmicName {
+  display: inline-flex;
+  align-items: center;
+  height: 28px;
+  perspective: 500px;
+  transform-style: preserve-3d;
+}
+
+.kgCosmicLetter {
+  --size: 28px;
+  --font-size: 16px;
+  --w: 12px;
+
+  position: relative;
+  cursor: pointer;
+  height: var(--size);
+  width: var(--w);
+  flex: 0 0 var(--w);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.kgCosmicLetter span,
+.kgCosmicLetter::before {
+  font-size: var(--font-size);
+  font-weight: 700;
+}
+
+.kgCosmicLetter span {
+  -webkit-text-stroke: 1px var(--color);
+  color: transparent;
+  transition: 0.5s;
+  animation: kgOutlineAuto 4s infinite ease-in-out;
+  animation-delay: var(--delay, 0s);
+}
+
+.kgCosmicLetter::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  text-align: center;
+  line-height: var(--size);
+  color: var(--color);
+  transition: 0.6s ease-in-out;
+  animation: kgFillAuto 4s infinite ease-in-out;
+  animation-delay: var(--delay, 0s);
+}
+
+.kgCosmicLetter:hover span {
+  opacity: 0;
+}
+
+.kgCosmicLetter:hover::before {
+  height: 100%;
+  filter: drop-shadow(0 0 12px var(--color));
+}
+
+.kgDevelopedBar:hover .kgCosmicLetter {
+  animation: kgLetterFlip 0.7s ease-in-out both;
+  animation-delay: calc(var(--delay, 0s) / 2);
+}
+
+.kgDevelopedBar:hover .kgDevelopedText {
+  color:#f1ce12;
+}
+
+@keyframes kgOutlineAuto {
+  0%,
+  65%,
+  100% {
+    opacity: 1;
+  }
+
+  12%,
+  28% {
+    opacity: 0;
+  }
+}
+
+@keyframes kgFillAuto {
+  0%,
+  65%,
+  100% {
+    height: 0;
+    filter: none;
+  }
+
+  12%,
+  28% {
+    height: 100%;
+    filter: drop-shadow(0 0 12px var(--color));
+  }
+}
+
+@keyframes kgLetterFlip {
+  0% {
+    transform: rotateX(0deg);
+  }
+
+  45% {
+    transform: rotateX(90deg) scale(1.08);
+  }
+
+  100% {
+    transform: rotateX(360deg);
+  }
+}

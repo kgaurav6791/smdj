@@ -13,6 +13,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Footer from "./components/Footer/Footer";
 import React, { useContext } from "react";
 import { themeContext } from "./Context";
+import DevelopedBy from "./components/DevelopedBy/DevelopedBy";
 //FOR TESTING
 // const PhotoGallery = React.lazy(() => {
 //   return new Promise((resolve) => setTimeout(resolve, 10000)).then(() =>
@@ -35,6 +36,7 @@ function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
+    <>
     <div
       className="App"
       style={{
@@ -131,6 +133,8 @@ function App() {
       </React.Suspense>
       <Footer />
     </div>
+      <DevelopedBy />
+      </>
   );
 }
 
