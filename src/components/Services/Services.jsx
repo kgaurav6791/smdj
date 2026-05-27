@@ -13,7 +13,7 @@ const Services = () => {
   // context
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-  const [popupOpen, setPopupOpen] = useState(false);
+ // const [popupOpen, setPopupOpen] = useState(false);
   // transition
   const transition = {
     duration: 1,

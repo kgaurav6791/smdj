@@ -21,7 +21,7 @@ const FloatinDiv = ({ img, text1, text2, type }) => {
           </Link>
         </>
       )}
-      {type != "booknow" && (
+      {type !== "booknow" && (
         <>
           <img src={img} alt="TOP DJ LUCKNOW" />
           <Link to="services" smooth={true} spy={true}>

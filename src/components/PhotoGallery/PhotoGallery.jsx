@@ -390,18 +390,18 @@ const PhotoGallery = () => {
           // }}
           onClick={(e) => {
             setTrack(!track);
-            const titleDiv = document.querySelector(
+            /* const titleDiv = document.querySelector(
               "button.image-gallery-fullscreen-button"
-            );
+            ); */
 
             //this._imageGallery.getCurrentIndex();
             //   titleDiv.click();
             // eslint-disable-next-line
           }}
           onThumbnailClick={(e, i) => {
-            const titleDiv = document.querySelector(
+            /* const titleDiv = document.querySelector(
               "button.image-gallery-fullscreen-button"
-            );
+            ); */
 
             // titleDiv.click();
           }}
@@ -473,18 +473,18 @@ const PhotoGallery = () => {
           // }}
           onClick={(e) => {
             setTrack(!track);
-            const titleDiv = document.querySelector(
+            /* const titleDiv = document.querySelector(
               "button.image-gallery-fullscreen-button"
-            );
+            ); */
 
             //this._imageGallery.getCurrentIndex();
             //   titleDiv.click();
             // eslint-disable-next-line
           }}
           onThumbnailClick={(e, i) => {
-            const titleDiv = document.querySelector(
+            /* const titleDiv = document.querySelector(
               "button.image-gallery-fullscreen-button"
-            );
+            ); */
 
             // titleDiv.click();
           }}
